@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Webpage</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html" class="active" aria-label="Home" title="Home"><img src="assets/home.png"
+                        alt="Home"></a></li>
+            <li><a href="#" aria-label="Pedidos" title="Pedidos"><img src="assets/order.png" alt="Pedidos"></a></li>
+            <li><a href="#" aria-label="Pagamentos" title="Pagamentos"><img src="assets/payment.png"
+                        alt="Pagamentos"></a></li>
+            <li><a href="#" aria-label="Configurações" title="Configurações"><img src="assets/configs.png"
+                        alt="Configurações"></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="topping">
+            <img class="logo" src="assets/logo.png" alt="Logo Delizioso" />
+        </section>
+
+        <section class="search">
+            <input type="text" name="q" placeholder="O que gostaria de comer..." />
+            <button type="button">Search</button>
+        </section>
+
+        <h1>Our "Speciale" Menu</h1>
+
+        <section class="foods">
+            <section class="food_container">
+                <figure>
+                    <img src="assets/food_images/bruschetta.png" alt="Bruschetta Pomodoro" />
+                    <figcaption>
+                        <h3>Bruschetta Pomodoro</h3>
+                        <p class="price">$5.90 <span>/ portion</span></p>
+                        <p class="origin">Fresh tomatoes from Parobé, RS</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="food_container">
+                <figure>
+                    <img src="assets/food_images/pizza.png" alt="Pizza Napoletana" />
+                    <figcaption>
+                        <h3>Pizza Napoletana</h3>
+                        <p class="price">$14.90 <span>/ 8 slices</span></p>
+                        <p class="origin">Long fermentation dough</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="food_container">
+                <figure>
+                    <img src="assets/food_images/carbonara.png" alt="Carbonara Pasta" />
+                    <figcaption>
+                        <h3>Carbonara Pasta</h3>
+                        <p class="price">$12.50 <span>/ dish</span></p>
+                        <p class="origin">Guanciale and Pecorino Romano</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="food_container">
+                <figure>
+                    <img src="assets/food_images/caprese.png" alt="Caprese Salad" />
+                    <figcaption>
+                        <h3>Caprese Salad</h3>
+                        <p class="price">$8.90 <span>/ dish</span></p>
+                        <p class="origin">Buffalo mozzarella and basil</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <button type="button">Order</button>
+    </main>
+</body>
+
+</html>
